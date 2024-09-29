@@ -10,11 +10,11 @@ function displayvalue(val) {
  function equal(){
     var a = document.getElementById("display").value;
     try{
-        result = eval(a)
+        result = eval(a);
         document.getElementById("display").value = result;
     }
     catch{
-        alert("Hi bro. You give the invalid syntax ")
-        clearo()
+        alert("Hello User. You give the invalid syntax ");
+        clearo();
     }
  }
